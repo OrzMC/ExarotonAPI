@@ -1,7 +1,7 @@
 
 # ExarotonAPI
 
-[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fwangzhizhou%2FExarotonAPI%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/wangzhizhou/ExarotonAPI) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fwangzhizhou%2FExarotonAPI%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/wangzhizhou/ExarotonAPI)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FOrzMC%2FExarotonAPI%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/OrzMC/ExarotonAPI) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FOrzMC%2FExarotonAPI%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/OrzMC/ExarotonAPI)
 
 [API][Exaroton API Website] for [Exaroton][Exaroton] in Swift
 
@@ -25,7 +25,7 @@ import PackageDescription
 let package = Package(
     ...
     dependencies: [
-        .package(url: "https://github.com/wangzhizhou/ExarotonAPI.git", branch: "main"),
+        .package(url: "https://github.com/OrzMC/ExarotonAPI.git", branch: "main"),
     ],
     targets: [
         .target(
@@ -144,7 +144,7 @@ import PackageDescription
 let package = Package(
     ...
     dependencies: [
-        .package(url: "https://github.com/wangzhizhou/ExarotonAPI.git", branch: "main"),
+        .package(url: "https://github.com/OrzMC/ExarotonAPI.git", branch: "main"),
     ],
     targets: [
         .target(
@@ -340,7 +340,7 @@ If you want to contribute to this project, you can use your Mac device and insta
 Run shell command as follow to get the project and open it with xcode editor:
 
 ```bash
-$ git clone https://github.com/wangzhizhou/ExarotonAPI.git
+$ git clone https://github.com/OrzMC/ExarotonAPI.git
 $ cd ExarotonAPI && xed .
 ```
 
@@ -377,6 +377,6 @@ If things goes well, you will see the unittests run and success or fail as follo
 [Exaroton OpenAPI Doc]: <https://developers.exaroton.com/openapi.yaml>
 [Swagger Editor]: <https://editor-next.swagger.io/>
 [Swift OpenAPI Generator]: <https://swiftpackageindex.com/apple/swift-openapi-generator>
-[openapi http client cases]: <https://github.com/wangzhizhou/ExarotonAPI/blob/main/Tests/ExarotonHTTPTests/ExarotonHTTPUnitTests.swift>
-[websocket send message cases]: <https://github.com/wangzhizhou/ExarotonAPI/blob/main/Sources/ExarotonWebSocket/ExarotonWebSocketAPI.swift>
-[websocket message receive handler]: <https://github.com/wangzhizhou/ExarotonAPI/blob/main/Tests/ExarotonWebSocketTests/ExarotonWebSocketEventDelegateHandler.swift>
+[openapi http client cases]: <https://github.com/OrzMC/ExarotonAPI/blob/main/Tests/ExarotonHTTPTests/ExarotonHTTPUnitTests.swift>
+[websocket send message cases]: <https://github.com/OrzMC/ExarotonAPI/blob/main/Sources/ExarotonWebSocket/ExarotonWebSocketAPI.swift>
+[websocket message receive handler]: <https://github.com/OrzMC/ExarotonAPI/blob/main/Tests/ExarotonWebSocketTests/ExarotonWebSocketEventDelegateHandler.swift>
